@@ -6,31 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV | Welcome</title>
     <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   </head>
   <body>
-    <main>
+    <main> 
+
+      <!-- Header  -->
       <header>
+       <div class="list"></div>
         <ul>
           <li><a href="#About">About</a></li>
           <li><a href="#Education">Education</a></li>
-          <li><a href="#Experience">Experience</a></li>
           <li><a href="#Skill">Skill</a></li>
           <li><a href="#Contact">Contact</a></li>
         </ul>
-        <img src="images/button white header.png" class="menu-icon" onclick="menutoggle()" />
+        <img src="images/menu.png" class="menu-icon" onclick="menuOpen()" />
       </header>
       <div class="explore">
         <div>
+          <div class="square1"></div>
+          <div class="square2"></div>
           <h1 class="font" data-text="Welcome">Welcome</h1>
+          <h3 data-text="to my pages">to my pages</h3>
         </div>
       </div>
-      <div class="container">
-        <h1 class="font" data-text="About">About</h1>
+      
+
+      <!-- About -->
+      <section id="About" class="container">
         <div class="card">
-          <h2>Denta Bramasta Hidayat</h2>
-          <p>tecudsguvbeuvis uefbieuwsvfw abciuafevu</p>
+          <div class="profile">
+            <div class="profile-user">
+              <img src="images/profile.jpg" alt="">
+              <h3>Denta Bramasta Hidayat</h3>
+            </div>
+            <div class="words">
+              <p>Hello, Iam a second year student of Sepuluh Nopember Institute of Technology currently majoring in Informatics.
+                I do Front End Web and other programming with C and C++ language.
+                </p>
+              <p class="paddtop-med"> I love to create something new and sharing each other especially about knowledge, then fill free to contact me.</p>
+            </div>
+            <div class="cv">
+              <a href="images/CV_Denta Bramasta Hidayat_5025201116.pdf" target="_blank" class="circle">Curriculum Vitae</a>
+            </div>
+          </div>
         </div>
+      </section>
+
+      <!-- Education -->
+      <section id="Education" class="container">
+        <div class="card">
+          <div class="lay">
+              <div class="item">
+                <img src="images/smpn2bangkalan.png" alt="">
+              <h3>SMPN 2 Bangkalan</h3>
+              <ul>
+              <li>Scout Squad Leader (2014)</li>
+              </ul>
+            </div>
+              <div class="item">
+                <img src="images/Sman1bangkalan.png" alt="">
+              <h3>SMAN 1 Bangkalan</h3>
+              <ul>
+              <li>Leader of Student Council MPK Organization (2018 - 2019)</li>
+              <li>"Revolusi Mental" Training for Leader of Student Council in Batu (2018)</li>
+              <li>Volunteer of Environmental Sanitation at Phuket Thailand (2019)</li>
+            </ul>
+          </div>
+              <div class="item">
+                <img src="images/Lambang ITS (3).png" alt="">
+              <h3>Sepuluh Nopember Institute of Technology</h3>
+              <ul>
+              <li>GPA 3.79 as of second term</li>
+              <li>Public Relations Staff of Schematics 2021 (2021 - current)</li>
+              <li>Internal Staff Heroes Day E-Sport (2021 - current)</li>  
+              <li>Semifinalist of Petrolida 2021 (January - March 2021)</li>
+              <li>Chairman at ImaBITS (August - current)</li>
+              <li>Teaching assistant Basic Programming at IUP 21 (september - current)</li>
+            </ul>
+            </div>
+            </div>
+        </div>
+      </section>
+
+
+      <!-- Skill -->
+      <section id="Skill" class="container">
+        <div class="card">
+          <div class="profile">
+            <div class="profile-user">
+              <img src="images/profile.jpg" width="200px" alt="">
+              <h3>Denta Bramasta Hidayat</h3>
+            </div>
+            <div class="words">
+              <p>Hello, Iam a second year student of Sepuluh Nopember Institute of Technology currently majoring in Informatics.
+                I do Front End Web and other programming with C and C++ language.
+                </p>
+              <p class="paddtop-med"> I love to create something new and sharing each other especially about knowledge, then fill free to contact me.</p>
+            </div>
+            <div class="cv">
+              <a href="" class="circle">Curriculum Vitae</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!-- Contact -->
+    <section id="Contact">
+      <div class="container1">
+        <h3 class="">You can contact me down below.</h3>
+      <div class="icon">
+        <a href="https://www.facebook.com/profile.php?id=100008379526066" target="_blank" class="tombol"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/denta_bramasta_h/" target="_blank" class="tombol"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/denta-bramasta-50229a204/" target="_blank" class="tombol"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:denta.dent53@gmail.com" target="_blank" class="tombol"><i class="far fa-envelope"></i></a>
       </div>
+    </div>
+    </div>
+  </section>
+      <footer>
+        <p>&copy; 2021, Created by Denta Bramasta</p>
+      </footer>
     </main>
     <script src="assets/cv.js"></script>
   </body>
